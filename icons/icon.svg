@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="vz-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d4aff"/>
+      <stop offset="1" stop-color="#2f80ed"/>
+    </linearGradient>
+    <clipPath id="vz-lens"><circle cx="64" cy="92.28" r="55.16"/></clipPath>
+  </defs>
+  <rect x="5.12" y="5.12" width="117.76" height="117.76" rx="28.16" fill="url(#vz-bg)"/>
+  <circle cx="64" cy="35.72" r="55.16" fill="#fff" clip-path="url(#vz-lens)"/>
+  <circle cx="64" cy="64" r="20.48" fill="#251a5e"/>
+  <circle cx="64" cy="64" r="9.6" fill="#0b0d17"/>
+  <circle cx="71.04" cy="56.96" r="4.48" fill="#fff"/>
+</svg>

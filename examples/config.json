@@ -1,0 +1,1 @@
+{"name":"vistazo-example","version":"1.0.0","server":{"host":"localhost","port":30120,"maxPlayers":64,"tickRate":30},"features":{"previews":true,"darkMode":"auto","languages":["en","es"]},"maintainers":[{"name":"morningstar-code","role":"owner"}],"tags":["example","json","minified"]}

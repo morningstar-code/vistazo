@@ -1,0 +1,40 @@
+name: Bug report
+description: A preview is wrong, missing, or something breaks
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time! Security problems go to the [private advisory form](https://github.com/morningstar-code/vistazo/security/advisories/new) instead.
+  - type: input
+    id: link
+    attributes:
+      label: GitHub page or link
+      description: Where it happens. A public URL lets us reproduce it right away.
+      placeholder: https://github.com/owner/repo/blob/main/file.js
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 156, Edge 156, Firefox 140...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Vistazo version
+      description: Shown at the top of the settings popup.
+      placeholder: 1.0.0
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors (optional)
+      description: Open DevTools on the GitHub tab, Console panel, and paste anything mentioning the extension.
+      render: text
