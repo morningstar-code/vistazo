@@ -4,6 +4,13 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.0.3] - 2026-10-28
+
+### Fixed
+
+- Dotfiles such as `.editorconfig`, `.prettierrc` and `.eslintrc` are highlighted instead of shown as plain
+  text.
+
 ## [1.0.2] - 2026-10-28
 
 ### Changed
@@ -60,4 +67,5 @@ First release.
 - English and Spanish translations.
 - Unit tests, an end-to-end test in headless Chrome, CI and a release workflow.
 
+[1.0.3]: https://github.com/morningstar-code/vistazo/releases/tag/v1.0.3
 [1.0.2]: https://github.com/morningstar-code/vistazo/releases/tag/v1.0.2
